@@ -18,7 +18,7 @@ $(function () {
     repwd: function (value) {
       var val = $('.reg-box input[name=password]').val()
       if (value != val) {
-        return alert('两次密码不一致')
+        return '两次密码不一致'
       }
     }
   })
